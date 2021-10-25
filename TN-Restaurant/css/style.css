@@ -1,0 +1,368 @@
+/*
+    Website : TN Healthy Food
+    Author : Fahmi Fourati ® 2021
+    Version : 1.0
+*/
+
+
+
+/* Global styles--------------------------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+h2 {
+    text-align: center;
+    color: #3d4344;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #44810C;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #4cd137;
+}
+
+/* Navbar section---------------------------------------------------------------------------------------------------*/
+
+.logo img {
+    width: 50%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    margin-right: 80px;
+}
+
+#tn-flag {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+
+/* Food-search section----------------------------------------------------------------------------------------------*/
+
+.food-search {
+    height: 220px;
+    background: url('../img/bg-search.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position-x: 10px;
+}
+
+form {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+
+.food-search input[type="search"] {
+    width: 350px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 5px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid rgb(207, 206, 206);
+    background-color: #4cd137;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #50970e;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+/* Categories section----------------------------------------------------------------------------------------------*/
+
+.box-3 {
+    width: 30%;
+    position: relative;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.box-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+/* Food-menu section----------------------------------------------------------------------------------------------*/
+
+.food-menu {
+    background-color: #F7F7F7;
+    margin-top: 30px;
+    padding: 20px 0px 35px 0px;
+}
+
+.food-menu-box {
+    width: 45%;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+
+}
+
+.food-menus-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.food-menu-image {
+    width: 60%;
+}
+
+.food-menu-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    gap: 5px;
+}
+
+.order-btn {
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    bottom: -15px;
+    padding-top: 5px;
+    height: 25px;
+}
+
+.price-tag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+.food-desc {
+    color: #636e72;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* Social-media section----------------------------------------------------------------------------------------------*/
+.social {
+    padding-top: 20px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    width: 42px;
+}
+
+/* Partner section----------------------------------------------------------------------------------------------*/
+
+.partners .container {
+    margin-bottom: 30px;
+}
+.partners h2 {
+    margin: 40px;
+}
+
+.partner-logo {
+    width: 160px;
+    margin-right: 50px;
+}
+
+/* Footer section-----------------------------------------------------------------------------------------------------*/
+
+.footer, .social {
+    background-color: #F7F7F7;
+}
+
+.footer p {
+    text-align: center;
+    color: #636e72;
+}
+
+/* Food order-----------------------------------------------------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid gray;  
+    border-radius: 8px;
+    padding: 10px;
+    background-color:#F7F7F7;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#order-img {
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+
+.order-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.order-qty {
+    width: 30px;
+    text-align: center;
+}
+
+.order{
+    width: 50%;
+    margin-left: 75px;
+}
+
+legend {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.delivery-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 15px;
+}
+
+.order-label, label {
+    font-weight: bold;
+}
+
+#btn-order {
+    width: 150px;
+    position: relative;
+    margin: 8px auto;
+}
+
+/* Mobile version-----------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:760px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        margin: 14px;
+        position: relative;
+        left: 38px;
+    }
+
+    .food-search {
+        position: relative;
+        height: 80px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    form {
+        width: 70%;
+        position: absolute;
+        top: 15px;
+        left: 190px;
+        display: flex;
+    }
+
+    .food-search input[type="search"] {
+        width: 50%;
+    }
+
+    .btn {
+        width: 30%
+    }
+
+    .boxes-container {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .box-3 {
+        width: 100%;
+    }
+
+    .box-title {
+        font-size: 30px;
+    }
+
+    .food-menu-box {
+        width: 100%;
+    }
+
+    .box-image {
+        width: 100%;
+    }
+
+    .partner-logo {
+        width: 140px;
+    }
+}
